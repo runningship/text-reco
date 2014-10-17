@@ -11,7 +11,7 @@ public class LineCutterTest {
 
 	public static void main(String[] args) throws IOException{
 		String baseDir = "E:\\java\\xinzhouy\\TextRecognizer\\";
-		File imgFile = new File(baseDir+"p1.jpg");
+		File imgFile = new File(baseDir+"showphone.gif");
 		List<BufferedImage> lines = LineCutter.cutImageIntoLines(imgFile);
 		for(int i=0;i<lines.size();i++){
 			File dir = new File(baseDir+imgFile.getName()+"-data");

@@ -11,7 +11,7 @@ public class MatcherTest {
 
 	@Test
 	public void matchChar() throws IOException{
-		File ch = new File("E:\\java\\xinzhouy\\TextRecognizer\\p1.jpg-data\\line-1-chars\\0-27.jpg");
+		File ch = new File("E:\\java\\xinzhouy\\TextRecognizer\\showphone.gif-data\\0.jpg");
 //		ImageHelper.print(propArea.getData());
 
 		long start = System.currentTimeMillis();

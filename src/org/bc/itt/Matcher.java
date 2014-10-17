@@ -249,6 +249,10 @@ public class Matcher {
 			if(data!=null){
 				StdData stdData = new StdData(data);
 				int val = Integer.valueOf(ch.getName().replace(".jpg", ""));
+				if(val>57 || val<48){
+					//not a number,need number only
+					continue;
+				}
 				stdData.ch=String.valueOf((char)val);
 				stdData.fontStyle = ch.getParentFile().getName();
 				stdData.fontName = ch.getParentFile().getParentFile().getName();
