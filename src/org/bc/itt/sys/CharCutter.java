@@ -72,7 +72,8 @@ public class CharCutter {
 	}
 	
 	private static void testChars() throws IOException{
-		String dir = "E:\\java\\xinzhouy\\TextRecognizer\\text reco\\";
+//		String dir = "E:\\java\\xinzhouy\\TextRecognizer\\text reco\\";
+		String dir = "D:\\code\\text-reco\\text reco\\";
 		String fileName = "p1.jpg.r.jpg.9.jpg";
 		BufferedImage img = javax.imageio.ImageIO.read(new File(dir+fileName));
 		List<BufferedImage> lines = processToChar(img);
